@@ -1,0 +1,19 @@
+/* frontend/src/styles.css */
+
+/* This imports Tailwind v4 layers (base, components, utilities) */
+@import "tailwindcss";
+
+/* Some basic global styling (normal CSS) */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: #020617; /* slate-950-ish */
+  color: #e5e7eb; /* slate-200-ish */
+}
